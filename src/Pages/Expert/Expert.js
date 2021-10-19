@@ -9,9 +9,9 @@ const Expert = (props) => {
 
            
             <img className="expertImgSize" src={img} alt="" />
-            <h2>{name}</h2>
-            <h4>Age : {age}</h4>
-            <h4>Salary : {slary}</h4>
+            <h4>{name}</h4>
+            <h5>Age : {age}</h5>
+            <h4>Salary : <span className="text-danger">{slary}</span> </h4>
             
         </div>
     );
