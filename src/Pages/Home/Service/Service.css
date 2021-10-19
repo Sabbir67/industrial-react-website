@@ -1,0 +1,9 @@
+.imgSize{
+    height: 200px;
+    width: 400px;
+}
+
+.serviceBox{ 
+    border: 2px solid rgb(194, 199, 194);
+    padding: 10px;
+}
